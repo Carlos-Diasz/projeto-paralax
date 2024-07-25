@@ -60,13 +60,14 @@ section {
 .estrofe_Branca {
     background-color: #FFF;
     padding: 80px 0px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px 10px black;
 }
 
 .versos_FundoBranco {
     font-family: var(--fonte2);
     font-size: 3.5vw;
     margin-left: 30px;
+    text-shadow: 1px 1px 0px #000000a4;
     
 }
 
@@ -75,6 +76,7 @@ section {
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px #00000093;
     
 }
 
@@ -85,7 +87,7 @@ section {
     font-family: var(--fonte2);
     font-size: 3.5vw;
     margin-left: 30px;
-
+    text-shadow: 2px 2px 0px #000000;
 }
 
 .separacaoDeVerso {
@@ -97,6 +99,7 @@ section {
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px #00000093;
 }
 
 footer {
